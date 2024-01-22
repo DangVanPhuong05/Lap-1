@@ -62,7 +62,7 @@
   }
   
   .hero {
-    background-image: url("./images/hero-bg.png");
+    background-image: url("./images/img/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 650px;
