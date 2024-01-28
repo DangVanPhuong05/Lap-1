@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 - Form HTML</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h1>Get in <span class="touch">touch</span></h1>
+      <p>
+        Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+        molestie vel, ornare non id blandit netus.
+      </p>
+      <form class="form-content">
+        <!-- placeholder: text goi y -->
+        <input class="input-form" type="text" placeholder="Contact name" />
+        <input class="input-form" type="text" placeholder="Street" />
+        <div class="city">
+          <input class="input-form" type="text" placeholder="City" />
+          <input class="input-form" type="number" placeholder="Postcode" />
+        </div>
+        <input class="input-form" type="number" placeholder="Contact Phone" />
+        <input class="input-form" type="email" placeholder="Email" />
+        <input
+          class="input-form"
+          type="text"
+          placeholder="Let’s talk about your idea"
+        />
+        <!-- Upload File -->
+        <label class="input-file" for="upload">
+          <div>
+            <img src="./images/upload.svg" alt="" />
+            <span>Upload Additional file</span>
+          </div>
+          <input type="file" id="upload" hidden />
+        </label>
+
+        <p>Attach file. File size of your documents should not exceed 10MB</p>
+        <div>
+          <input type="checkbox" id="confirm" />
+          <label for="confirm"
+            >I want to protect my data by signing an NDA</label
+          >
+        </div>
+        <button type="submit" class="btn">Submit</button>
+
+        <!-- Icon Text -->
+        <div class="icon-wrapper">
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./images/phone.svg" alt="" />
+            <div class="icon-text">
+              <span>Phone</span>
+              <span>111 111 111</span>
+            </div>
+          </div>
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./images/email.svg" alt="" />
+            <div class="icon-text">
+              <span>E-MAIL</span>
+              <span>info@company.com</span>
+            </div>
+          </div>
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./images/email.svg" alt="" />
+            <div class="icon-text">
+              <span>HELPDESK</span>
+              <span>https://helpdesk.com</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
