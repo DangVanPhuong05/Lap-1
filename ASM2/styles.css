@@ -1,41 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-}
-
-body {
+  }
+  
+  body {
     font-family: "Inter", sans-serif;
     background: #FBFBFF;
-}
-
-ul,
-li {
+  }
+  
+  ul,
+  li {
     list-style: none;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-}
-
-nav {
+  }
+  nav {
     display: flex;
-}
-
-.container {
+  }
+  .container {
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.menu-list {
+  }
+  
+  .menu-list {
     display: flex;
     gap: 43px;
-}
-
-.btn-group {
+  }
+  
+  .btn-group {
     display: flex;
-}
-
-.btn-contact {
+  }
+  
+  .btn-contact {
     border: none;
     padding: 16px 28px;
     border-radius: 47px;
@@ -44,17 +42,17 @@ nav {
     color: #fff;
     font-size: 22px;
     font-weight: 600;
-}
-
-.btn-signin {
+  }
+  
+  .btn-signin {
     border: none;
     color: #55557a;
     font-size: 22px;
     font-weight: 500;
-}
-
-.menu-link {
+  }
+  
+  .menu-link {
     color: #55557a;
     font-size: 22px;
     font-weight: 500;
-}
+  }
