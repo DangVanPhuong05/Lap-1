@@ -115,5 +115,5 @@ footer {
     width: 120px;
     height: 40px;
     line-height: 40px;
-    flex:auto;
+    display:flex;
 }
